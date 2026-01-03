@@ -1,0 +1,30 @@
+# Node dependencies
+node_modules
+# local environment variables
+.env
+.env.local
+.env.*.local
+
+# Vue 3 / Vite build outputs (typically the `dist` or `.output` folder)
+/dist
+/.output
+.nuxt # For Nuxt.js projects
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Editor/OS specific files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+

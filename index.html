@@ -4,15 +4,65 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Mini-Project Starter</title>
+    <title>Pricing Cards</title>
   </head>
   <body>
-    <h1>Mini-Project Starter</h1>
-    <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque veritatis voluptates rerum. Sed incidunt aliquid autem corporis a! Distinctio asperiores atque totam eligendi molestiae sed nam ex velit accusantium illo!</p>
-    <p class="p">Porro saepe laudantium ipsum perspiciatis neque? Cupiditate perferendis harum recusandae voluptatum, atque aspernatur perspiciatis voluptatibus ducimus accusantium officia saepe voluptas porro impedit debitis nisi ab hic enim quod a aut.</p>
-    <p class="p">Adipisci assumenda eaque, fugit ducimus deserunt hic deleniti ullam voluptate neque laboriosam nulla, quis beatae earum nobis, ut aliquid blanditiis tenetur? Quae, non! Iure adipisci odio dolorum, amet nam repudiandae.</p>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <!-- Card 1-->
+          <div class="card roudend-4 shadow-lg border-0 mb-5">
+            <div class="card-body">
+              <div>
+                <h4 class="fw-bold">Free</h4>
+                <p class="text-muted">For Freelancers</p>
+              </div>
+              <h2 class="fs-1 fw-bold mt-4 mb-5">$0</h2>
+              <ul class="list-group list-group-flush fs-5 mb-5 vstack gap-2">
+                <li class="list-group-item border-0"><i class="bi bi-check2"> Single User</i></li>
+                <li class="list-group-item border-0"><i class="bi bi-check2"> 10 Downloads Per Month</i></li>
+                <li class="list-group-item border-0"><i class="bi bi-check2"> Faster Files</i></li>
+                <li class="list-group-item border-0"><i class="bi bi-check2"> 25 Custom Packs</i></li>
+              </ul>
+              <div class="d-grid">
+                <button class="btn btn-dark rounded-4 mb-4">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <!-- Card 2-->
+          <div class="card text-bg-dark roudend-4 shadow-lg border-0 mb-5">
+            <div class="card-body">
+              <div>
+                <h4 class="fw-bold">Pro</h4>
+                <p class="text-white">For Agencies</p>
+              </div>
+              <h2 class="fs-1 fw-bold mt-4 mb-5">$100</h2>
+              <ul class="list-group list-group-flush fs-5 mb-5 vstack gap-2">
+                <li class="list-group-item border-0 text-bg-dark"><i class="bi bi-check2"> Unlimited Users</i></li>
+                <li class="list-group-item border-0 text-bg-dark"><i class="bi bi-check2"> Unlimited Downloads</i></li>
+                <li class="list-group-item border-0 text-bg-dark"><i class="bi bi-check2"> Fully Editable Files</i></li>
+                <li class="list-group-item border-0 text-bg-dark"><i class="bi bi-check2"> 200+ Custom Packs</i></li>
+              </ul>
+              <div class="d-grid">
+                <button class="btn btn-light rounded-4 mb-4">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

@@ -1,0 +1,5 @@
+
+git remote add origin https://ghp_...@github.com/silviolimeirawork-gif/mini-project-bootstrap.git
+git branch -M main
+git push -u origin main
+

@@ -1,0 +1,9 @@
+
+Live Reload on Mobile & PC with VSCode
+https://www.youtube.com/watch?v=veafgJ7CO2M
+
+
+git remote add origin https://github.com/silviolimeirawork-gif/mini-project-bootstrap.git
+git branch -M main
+git push -u origin main
+
